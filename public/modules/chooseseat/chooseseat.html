@@ -1,0 +1,155 @@
+<style>
+    .seat_null{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        margin-right: 7px;
+
+    }
+    .seat_optional,.seat_selected,.seat_noselected{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        background: url(../../img/new_ticket_ico1.png) no-repeat;
+        margin-right: 7px;
+    }
+    i.seat_optional{
+        background-position: 0px 0px;
+    }
+    i.seat_selected{
+        background-position: 0px -66px;
+    }
+    i.seat_noselected{
+        background-position: 0px -88px;
+    }
+    .dynamicSeats{
+        margin:auto;
+
+    }
+    .rowTable{
+        position: absolute;
+        left:15px;
+        top:195px;
+    }
+    .rowTable.td{
+        padding: 6px;
+    }
+</style>
+<!--选座位的网页-->
+<div class="chooseseat-content">
+    <div class="buypiao">
+
+        <!--电影票订购-->
+        <div class="orderticks">
+            <h1>电影票订购</h1>
+            <div class="step">
+                <p class="p1">第一步：选择场次和座位</p>
+                <p class="p2">第二步：确定订单信息并支付</p>
+                <p class="p3">第三步：支付成功，区影院打印电影票</p>
+            </div>
+        </div>
+
+
+        <!--温馨提示下面的内容，分为左右布局  （左边是选座位的信息， 右边是购买的情况）-->
+        <div class="allcontent">
+
+            <!--左边是座位信息-->
+            <div class="conleft">
+                   <div class="reminder"><span>温馨提示：</span> 如果在您观看3D版本的影片时，中途离场请携带3D眼睛，以免工作人员禁止您正常出入厅。</div>
+                   <div class="seat">
+                     <button class="seat1"></button>
+                     <button>可选座</button>
+                     <button class="seat2"></button>
+                     <button>情侣座</button>
+                     <button class="seat3"></button>
+                     <button>帝王座</button>
+                     <button class="seat4"></button>
+                     <button>选中座</button>
+                     <button class="seat5"></button>
+                     <button>已选座</button>
+                     <button class="seat6"></button>
+                     <button>不可选座位</button>
+                 </div>
+                   <div class="Imaxscreen"></div>
+                   <p class="fisth">首排距离银幕12米</p>
+                   <!-----------------------------------------------------seat座位排序-------------------------------------------------------------------->
+                   <!--座位信息-->
+                    <div class="seatInfom seats">
+                        <table>
+                            
+                        </table>
+                    </div>
+                   <!--注意事项-->
+                   <ul>
+                       <li>注意事项：</li>
+                       <li>1.售票系统不支持您在所选的座位之间仅留一个空白座位，请见谅</li>
+                       <li>2.由于影院网络不稳定，如遇到锁座失败的情况，请重新刷新本页或耐心等待15分钟左右再购买</li>
+                       <li>3.你锁定的位置，请在15分钟之内支付。一旦未支付或订单失败，将无法人工保留所选座位，请见谅！</li>
+                       <li>4.每周二为影院优惠日，您可以选择亲自到电影院买更为优惠的折扣票。</li>
+                       <li>5.每笔订单最多可选购4-5张电影票，情侣座绑定售卖；</li>
+                   </ul>
+            </div>
+
+
+            <!--右边是购票信息-->
+            <div class="conright">
+                <img src="../../img/57.gif" alt=""/>
+                <div class="buyInfo">
+                    <h6><span>影院：</span> <p class="cinema_name"></p></h6>
+                    <h6><span>影片：</span> <p class="films_namae"></p></h6>
+                    <h6><span>版本：</span>3D</h6>
+                    <h6><span>语言：</span>英语</h6>
+                    <h6 style="color: #fc7f1f;">时间：<span class="films_time"></span></h6>
+                    <h6 style="margin-top: 30px;">所选座位</h6>
+                    <button class="bu1"></button>
+                    <p class="p4">请先在左侧选座，每次可选5座</p>
+                    <h6 class="commall">合计：</h6>
+                    <button class="bu2">总价：<small>￥0.00</small></button>
+                    <h6>您的手机号</h6>
+                    <input type="text"/>
+                    <p class="p5">我为什么要填手机号？</p>
+                    <button class="bu3">请选择座位</button>
+                    <p class="p4">本产品不支持退换，请见谅</p>
+                </div>
+                <img class="redtu" src="../../img/59.gif" alt=""/>
+                <img class="redtu1" src="../../img/58.gif" alt=""/>
+                <h1 class="newInfo">你的购票信息 <small>更换</small></h1>
+            </div>
+        </div>
+
+
+        <!--最下面的图-->
+        <div class="lasttu">
+            <img src="../../img/60.jpg" alt=""/>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

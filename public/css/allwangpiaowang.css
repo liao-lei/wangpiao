@@ -1,0 +1,373 @@
+a{text-decoration: none;color: black;}
+body{font-size: 10px;}
+
+
+/*--------------------------------------------------------------------------------网票网首页CSS文件---------------------------------------------------------------------------------------------*/
+/*头部黑色导航栏++++内容部分的导航*/
+.main-header{width: 100%;height: 137px;background-color: black;}
+.main-header .xNav{width: 965px;;height: 32px;background-color: black;margin: 0 auto;line-height: 32px;}
+.main-header .xNav p{float: left;color: white;}
+.main-header .xNav nav{float: right;}
+.main-header .xNav nav button{display: inline-block;height: 12px;color: white;outline: none;background-color: transparent;border: none;border-right: 1px solid white;line-height: 12px;padding-right: 8px;}
+.main-header .xNav nav button:hover{color: red;}
+.main-header .cNav{overflow: hidden;width: 100%;;height: 105px;background-color: #ffffff;margin: 0 auto;border-bottom: 1px solid #eaeaea;box-shadow: 2px 2px 10px #a3a3a3;}
+.main-header .cNav .cNavauto{width: 965px;height: 100%;margin: 0 auto;line-height: 105px;}
+.main-header .cNav .cNavauto .logo{margin-top: 12px;float: left;}
+.main-header .cNav .cNavauto .local{float: left;margin-left: 20px;margin-top: 25px;}
+.main-header .cNav .cNavauto nav{float: left;margin-left: 70px;margin-top: 15px;}
+.main-header .cNav .cNavauto nav button{width: 50px;height: 30px;border: none;outline: none;line-height: 30px;border-radius: 5px;background-color: transparent;color:#2a81c3;}
+.main-header .cNav .cNavauto nav button:hover{color: white;background-color: #2a81c3;}
+.main-header .cNav .cNavauto nav .bUact{position: relative;}
+.main-header .cNav .cNavauto nav img{position: absolute;left: 35px;top:-10px;}
+.main-header .cNav .cNavauto nav .buttO{width: 100px;color: white;background-color: #fc7f1f;border-radius: 0;}
+.main-header .cNav .cNavauto .search{width: 185px;height: 45px;float: right;font-size: 0;margin-top: 50px;}
+.main-header .cNav .cNavauto .search input[type=text]{width: 150px;height:32px;display: inline-block;background: url("../img/4.jpg");border:none;outline: none;float: left;font-size: 12px;}
+.main-header .cNav .cNavauto .search .butt1{width: 29px;height: 32px;border: none;outline: none;background: url("../img/5.jpg");float: left;}
+#loginname i,a{color: red;}
+
+/*首页内容部分*/
+.main-content{width: 965px;height: 2350px;margin: auto;margin-top: 20px;position: relative;}
+.main-content .lleft{width: 40px;height: 55px;background-image: url("../img/14.png");position: absolute;left: -70px;top: 130px;border: none;outline: none;background-color:transparent;}
+.main-content .lright{width: 40px;height: 55px;background-image: url("../img/14.png");background-position: -37px;position: absolute;right: -70px;top: 130px;border: none;outline: none;background-color: transparent;}
+
+     /*轮播部分*/
+.main-content .cArousel{width: 100%;height: 320px;position: relative;overflow: hidden;}
+.main-content .cArousel img{width: 100%;height: 320px;}
+.main-content .cArousel .img1{position: absolute;top: 0;left:0;}
+.main-content .cArousel .img2{position: absolute;top: 0;left:965px;}
+.main-content .cArousel ul{list-style: none;position: absolute;bottom: 20px;left: 45%;}
+.main-content .cArousel ul li{float: left;width: 10px;height: 10px;border-radius: 50%;border: 1px solid white;margin-right: 20px;background-color: #fe9a02;opacity: 0.4;}
+.main-content .cArousel ul li:hover{background-color: #0371be;border:1px solid #0371be;opacity: 1;}
+
+    /*热映影片*/
+.main-content .hOtmovie{margin-top: 25px;height: 700px;}
+        /*左边*/
+.main-content .hOtmovie .hotleft{width: 640px;height: 700px;float: left;position: relative;}
+.main-content .hOtmovie .hotleft .hotnav{}
+.main-content .hOtmovie .hotleft .hotnav h1{float: left;font-weight: normal;margin-right: 20px;width: 106px;height: 45px;border: 1px solid royalblue;text-align: center;line-height: 45px;border-radius: 10px;color: #0371be;}
+.main-content .hOtmovie .hotleft .hotnav p{float: right;color: #0371be;margin-top: 20px;}
+.main-content .hOtmovie .hotleft .hotnav .shangying{color: black;border: none;}
+.main-content .hOtmovie .hotleft .hotnav .shangying:hover{border: 1px solid royalblue;border-radius: 10px;color: #0371be;}
+.main-content .hOtmovie .hotleft ul{clear:both;list-style: none;text-align: center;}
+.main-content .hOtmovie .hotleft ul li{float: left;margin-right: 11px;}
+.main-content .hOtmovie .hotleft ul li h2{margin-top: 10px;}
+.main-content .hOtmovie .hotleft ul li p{margin-top: 10px;}
+.main-content .hOtmovie .hotleft ul li p small{font-size: 20px;color: #fe8941;font-weight: 700;margin-right: 10px;}
+.main-content .hOtmovie .hotleft ul li button{width: 130px;height: 30px;color: white;background-color: red;border: none;outline: none;border-radius: 20px;margin-top: 10px;}
+.main-content .hOtmovie .hotleft ol{position: absolute;bottom: 30px;}
+.main-content .hOtmovie .hotleft ol li{float: left;list-style: none;text-align: center;margin-right: 20px;}
+.main-content .hOtmovie .hotleft ol li img{width: 300px;}
+.main-content .hOtmovie .hotleft ol li h2{margin-top: 20px;}
+.main-content .hOtmovie .hotleft .hotactivity{margin-top: 40px;color: #0371be;position: absolute;bottom: 230px;}
+       /*右边*/
+.main-content .hOtmovie .hotright{width: 300px;height: 500px;float: right;}
+.main-content .hOtmovie .hotright ul{margin-top: 10px;}
+.main-content .hOtmovie .hotright ul li{float: left;list-style: none;margin-right: 15px;}
+.main-content .hOtmovie .hotright .more{width: 100%;height: 50px;color: #0371be;border-bottom: 1px solid silver;clear: both;margin-top: 120px;}
+.main-content .hOtmovie .hotright .more h1{float: left;}
+.main-content .hOtmovie .hotright .more p{float: right;margin-top: 20px;}
+.main-content .hOtmovie .hotright ol{list-style-image: url("../img/24.png");font-size: 16px;margin-top: 30px;margin-left: 20px;}
+.main-content .hOtmovie .hotright ol li{margin-top: 15px;}
+.main-content .hOtmovie .hotright .morelast{float: right;color: #0371be;margin-top: 50px;}
+
+
+    /*X战警天启*/
+.main-content .Xpolice{width: 100%;margin-top: 20px;}
+.main-content .Xpolice img{width: 100%;}
+
+
+   /*电影新闻*/
+.main-content .mOvienew{margin-top: 30px;}
+    /*左边*/
+.main-content .mOvienew .newleft{width: 640px;height: 900px;float: left;}
+.main-content .mOvienew .newleft .newnav{width: 100%;border-bottom: 1px solid #d9d9d9;color: #0371be;clear: both;overflow: hidden;}
+.main-content .mOvienew .newleft .newnav h1{float: left;}
+.main-content .mOvienew .newleft .newnav h3{float: right;margin-top: 20px;}
+       /*电影新闻介绍*/
+.main-content .mOvienew .newleft ul{list-style: none;}
+.main-content .mOvienew .newleft ul li{border-bottom: 1px solid #d9d9d9;overflow: hidden;margin-top: 20px;}
+.main-content .mOvienew .newleft ul li .newtitle{padding-bottom: 20px;}
+.main-content .mOvienew .newleft ul li .newtitle h4{float: left;font-weight: normal;font-size: 18px;}
+.main-content .mOvienew .newleft ul li .newtitle time{float: right;color: #969696;margin-top: 10px;margin-right: 30px;}
+.main-content .mOvienew .newleft ul li .newtu{clear: both;margin-top: 20px;}
+.main-content .mOvienew .newleft ul li .newtu img{float: left;padding-bottom: 20px;}
+.main-content .mOvienew .newleft ul li .newtu p{float: right;margin-left: 10px;width: 60%;line-height: 30px;font-size: 14px;}
+   /*右边*/
+.main-content .mOvienew .newright{width: 300px;height: 300px;float: right;}
+.main-content .mOvienew .newright .newreferee{width: 100%;border-bottom: 1px solid #d9d9d9;color: #0371be;clear: both;margin-bottom: 30px;overflow: hidden;}
+.main-content .mOvienew .newright .newreferee h1{float: left;}
+.main-content .mOvienew .newright .newreferee h3{float: right;margin-top: 20px;color: #424242;}
+.main-content .mOvienew .newright .lookmes{width: 276px;height: 135px;position: relative;}
+.main-content .mOvienew .newright .lookmes .lookme{margin-left: 20px;}
+.main-content .mOvienew .newright .lookmes .lookme1{position: absolute;bottom: 10px;left: 70px;}
+
+
+/*快速购票*/
+.main-content .qUticket{width: 100%;clear: both;}
+.main-content .qUticket img{float: left;}
+
+/*合作伙伴*/
+.main-content .partner {width: 100%;margin-top: 200px;}
+.main-content .partner h1{float: left;color: #0371be;margin-right: 30px;margin-left: 60px;margin-top: 0px;}
+.main-content .partner img{float: left;margin-left: 20px;}
+
+
+    /*首页尾部布局*/
+.main-footer{width: 100%;height: 315px;background-color: #ebebeb;border-top: 2px solid #0371be;}
+.main-footer .fOguide{width: 965px;height: 205px;margin: auto;position: relative;}
+.main-footer .fOguide img{float: left;margin-right: 15px;margin-top: 40px;}
+.main-footer .fOguide ul{float: left;list-style: none;margin-right: 20px;margin-top: 30px;border-right: 1px solid #b2b2b2;padding-right: 25px;}
+.main-footer .fOguide ul li{margin-top: 10px;color: #969696;}
+.main-footer .fOguide ul li:hover{color: red;}
+.main-footer .fOguide ul li:nth-child(1){color: #646470;font-size: 16px;}
+.main-footer .fOguide .cUstu{border: none;text-align: center;}
+.main-footer .fOguide .cUstu li:nth-child(1){font-size: 20px;font-weight: 700;margin-top: 20px;}
+.main-footer .fOguide .cUstu li:nth-child(2){color: #0371be;font-weight: 800;font-size: 20px;}
+.main-footer .fOguide .cUstu li:nth-child(3){color: black;}
+.main-footer .fOguide .cUstu li:nth-child(3) time{border-right: 1px solid black;padding-right: 10px;font-size: 10px;}
+.main-footer .fOguide .cUstu li:nth-child(3) small{padding-left: 7px;}
+.main-footer .fOguide nav{clear: both;position:absolute;bottom: 13px;left: 293px;}
+.main-footer .fOguide nav a{border-right: 1px solid #656565;color:  #656565;padding-right: 9px;}
+.main-footer .fOguide nav a:hover{color: #0371be;}
+.main-footer .fOlast{width: 100%;height: 110px;background-color: #9a9a9a;overflow: hidden;}
+.main-footer .fOlast p{width: 965px;color: white;margin: 17px auto;font-weight: 600;}
+.main-footer .fOlast p:hover{color:silver;}
+.main-footer .fOlast ul{list-style: none;width: 400px;margin: auto;}
+.main-footer .fOlast ul li{float: left;margin-right: 20px;}
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------网片网注册页面CSS-------------------------------------------------------------------------------------------*/
+.register-content{background: url("../img/40.jpg");width: 100%;height: 900px;}
+.register-content .logo{width: 284px;height: 90px;margin-left: 13%;margin-top: 20px;}
+.register-content .regcontent{width: 956px;height: 584px;background-color: white;margin-left: 13%;margin-top: 20px;position: relative;}
+.register-content .regcontent .yun{position: absolute;left: -119px;top: 20px;}
+.register-content .regcontent .commonreg{position: absolute;right: -90px;bottom: -20px;}
+.register-content .regcontent .intent{overflow: hidden;}
+.register-content .regcontent .intent .zhuce{margin-left: 40px;margin-bottom: 20px;}
+.register-content .regcontent .intent .zhuce button{width: 150px;height: 40px;text-align: center;line-height: 40px;border: none;outline: none;color: white;font-weight: 700;}
+.register-content .regcontent .intent .zhuce .emil1{background-color: #679bcc;}
+.register-content .regcontent .intent .zhuce .sjzc1{background-color: #b7dbff;}
+.register-content .regcontent .intent .zhuce .sjzc1:hover{background-color:#679bcc;}
+.register-content .regcontent .intent h1{color: #0371be;font-size: 30px;margin-top: 20px;margin-left: 40px;}
+.register-content .regcontent .intent label{margin-left: 40px;}
+.register-content .regcontent .intent p{margin-left: 115px;margin-top: 10px;margin-bottom: 20px;color: #969696;}
+.register-content .regcontent .mYhhao{position: absolute;right: 100px;top: 10px;}
+.register-content .regcontent .mYhhao h1{color: #0371be;font-size: 30px;}
+.register-content .regcontent .mYhhao .regist1{width: 220px;height: 40px;text-align: center;line-height: 40px;background-color:  #0371be;border: none;outline: none;color: white;}
+.register-content .regcontent .intent .regist{width: 220px;height: 45px;background-color: #0371be;border: none;outline: none;margin-left: 100px;color: white;font-size: 20px;margin-top: 30px;}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------网票网登陆页面CSS-----------------------------------------------------------------------------------------------*/
+.login-content{width: 100%;height: 800px;background: url("../img/40.jpg");}
+.login-content .logo{margin-top: 20px;margin-left: 13%;}
+.login-content .logotext{margin-top: 20px;margin-left: 13%;width: 960px;height: 478px;background-color: white;position: relative;}
+.login-content .logotext h1{color: #0371be;font-size: 30px;padding-top: 80px;margin-left: 40px;}
+.login-content .logotext .tu1{position: absolute;top: 40px;left: -131px;}
+.login-content .logotext .tu2{position: absolute;bottom: -80px;right: -120px;}
+.login-content .logotext .tu3{position: absolute;bottom: 80px;right: 250px;}
+.login-content .logotext .logintext div{margin-top: 50px;}
+.login-content .logotext .logintext div input{width: 200px;height: 30px;}
+.login-content .logotext .logintext div label{font-size: 20px;margin-left: 40px;}
+.login-content .logotext .logintext .lOgin{width: 220px;height: 40px;color: white;background-color: #0371be;border: none;outline: none;margin-left: 140px;margin-top: 30px;}
+.login-content .logotext .goerg{position: absolute;top: 0;right: 20px;}
+.login-content .logotext .goerg p{color: silver;margin-top: 10px;}
+.login-content .logotext .goerg h1{margin: 0;}
+.login-content .logotext .goerg .qurreg{width: 220px;height: 40px;color: white;background-color: #0371be;border: none;outline:none;margin-top: 10px;}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------影院介绍及选哪个电影院与那场电影----------------------------------------------------------------------------------------------------*/
+.buyticket-content{width: 100%;background-color: #eeeeee;}
+.buyticket-content .fistnav{width: 100%;height: 50px;background-color: #eeeeee;margin-top: 7px;line-height: 50px;}
+.buyticket-content .fistnav p{width: 965px;margin: auto;}
+.buyticket-content .fistnav button{color: #0371be;border: none;outline: none;background-color: transparent;}
+.buyticket-content .mSsuggest{width: 100%;height: 270px;background-color: #ffffff;}
+.buyticket-content .mSsuggest .mSdetail{width: 965px;height: 100%;margin: auto;overflow: hidden;}
+.buyticket-content .mSsuggest .mSdetail .moshou{width: 152px;height: 212px;border: 1px solid silver;box-shadow: 2px 2px 30px #a3a3a3 inset;margin-top: 25px;float: left;}
+.buyticket-content .mSsuggest .mSdetail .moshou img{margin-top: 2px;margin-left: 2px;}
+.buyticket-content .mSsuggest .mSdetail .introduce{float: left;}
+.buyticket-content .mSsuggest .mSdetail .introduce h2{margin-top: 23px;margin-left: 20px}
+.buyticket-content .mSsuggest .mSdetail .introduce h2 button{outline: none;color: #2a81c3;background-color: transparent;border: 1px solid silver;}
+.buyticket-content .mSsuggest .mSdetail .introduce h6{color: #2a81c3;font-weight: normal;margin-left: 20px;margin-top: 11px;}
+.buyticket-content .mSsuggest .mSdetail .introduce h6 span{color:silver;}
+.buyticket-content .mSsuggest .mSdetail .grade{float: right;width: 280px;}
+.buyticket-content .mnav{width: 965px;margin: auto;margin-top: 20px;font-size: 0;background-color: white;}
+.buyticket-content .mnav nav button{width: 160px;height: 40px;border: none;outline: none;font-size: 16px;color: #0371be;background-color: transparent;border-right: 1px dashed silver;}
+.buyticket-content .mnav nav button:hover{background-color: #0371be;color: white;}
+
+
+/*影厅的基本信息*/
+.buyticket-content .basic{width: 965px;height: 1200px;background-color: white;margin: auto;margin-top: 20px;}
+/*左边*/
+.buyticket-content .basic .leftbasic{width: 665px;height: 100%;float: left;}
+.buyticket-content .basic .leftbasic ul{list-style: none;margin-top: 10px;margin-left: 10px;}
+.buyticket-content .basic .leftbasic ul li{width: 102px;height: 36px;line-height: 36px;text-align: center;float: left;margin-left: 10px;margin-top: 10px;font-size: 0;}
+.buyticket-content .basic .leftbasic ul li .p1{height: 100%;width: 34px;color: white;background-color: #022d5a;display: inline-block;font-size: 14px;border: 1px solid #022d5a;}
+.buyticket-content .basic .leftbasic ul li .p2{height: 100%;width: 60px;color: #679ad5;background-color: white;display: inline-block;border: 1px solid steelblue;font-size: 14px; }
+.buyticket-content .basic .leftbasic ul li:hover{cursor: pointer;}
+
+.buyticket-content .basic .leftbasic .loacl{width: 640px;height: 230px;background-color: #d6ebfe;clear: both;margin-top: 120px;margin-left: 25px;}
+.buyticket-content .basic .leftbasic .loacl .searchbut{width: 100%;margin-left: 10px;position: relative;}
+.buyticket-content .basic .leftbasic .loacl .searchbut button{width: 90px;height: 30px;border: none;outline: none;background-color: #f1f1f1;margin-top: 5px;color: silver;}
+.buyticket-content .basic .leftbasic .loacl .searchbut button:hover{background-color: white;color: #63936d;}
+.buyticket-content .basic .leftbasic .loacl .searchbut input{display: inline-block;height: 25px;width: 200px;margin-left: 83px;}
+.buyticket-content .basic .leftbasic .loacl .searchbut .searchbutt{width: 45px;height: 30px;background: url("../img/49.png");position: absolute;right: 20px;top: 0;}
+.buyticket-content .basic .leftbasic .loacl nav {margin-left: 10px;color: #00B7FF;}
+.buyticket-content .basic .leftbasic .loacl nav button{width: 80px;height: 25px;border: none;outline: none;margin-top: 10px;background-color: transparent;}
+.buyticket-content .basic .leftbasic .loacl nav button:hover{color: white;background-color: #679bcc;}
+.buyticket-content .basic .leftbasic .loacl nav .hotbutt{color: white;background-color: #679bcc;}
+.buyticket-content .basic .leftbasic .loacl .movcity{width: 630px;height: 70px;background-color: white;margin: auto;margin-top: 10px;}
+.buyticket-content .basic .leftbasic .loacl .movcity a{display: inline-block;margin: 13px 60px auto 15px;color: #00B7FF;}
+
+.buyticket-content .basic .leftbasic .Imaxmov{width: 640px;margin-left: 25px;margin-top: 30px;}
+.buyticket-content .basic .leftbasic .Imaxmov .moardress{width: 100%;height: 100px;overflow: hidden;border: 1px solid #dfdfdf;position: relative;margin-top: 50px;}
+.buyticket-content .basic .leftbasic .Imaxmov .moardress img{float: left;margin:30px auto auto 30px;}
+.buyticket-content .basic .leftbasic .Imaxmov .moardress h6{float: left;margin-top: 25px;font-weight: normal;font-size: 20px;}
+.buyticket-content .basic .leftbasic .Imaxmov .moardress small{clear: both;position: absolute;left: 67px;bottom: 30px;color: silver;}
+.buyticket-content .basic .leftbasic .Imaxmov .moardress small span{color: #028102;}
+.buyticket-content .basic .leftbasic .Imaxmov table{width: 640px;overflow: hidden;text-align: center;border-bottom: 1px solid #979797;}
+.buyticket-content .basic .leftbasic .Imaxmov table tr th{background-color: #e4e4e4;border: none;font-weight: normal;color: #9e9e9e;height: 30px;}
+.buyticket-content .basic .leftbasic .Imaxmov table tr td{border: none;border-bottom: 1px dashed silver;height: 40px;}
+.buyticket-content .basic .leftbasic .Imaxmov table tr td span{color: #6a9ccc;}
+.buyticket-content .basic .leftbasic .Imaxmov table tr td small{color: #71c896;}
+.buyticket-content .basic .leftbasic .Imaxmov table tr td button{color: white;background-color: #ff8c04;border: none;outline: none;width: 80px;height: 25px;}
+/*.info_times{display: none;}*/
+#table0{display: none;}
+#table1{display: none;}
+#table2{display: none;}
+
+
+/*右边*/
+.buyticket-content .basic .rightbasic{width: 270px;height: 100%;float: right;padding-right: 10px;}
+.buyticket-content .basic .rightbasic .rbnav{color: #51a9f2;}
+.buyticket-content .basic .rightbasic .rbnav h1{float: left;}
+.buyticket-content .basic .rightbasic .rbnav p{float: right;margin-top: 20px;}
+.buyticket-content .basic .rightbasic .hotlook{width: 100%;height: 220px;border-bottom: 1px dashed silver;border-top: 1px dashed silver;clear: both;}
+.buyticket-content .basic .rightbasic .hotlook .findingNemo{float: left;margin-top: 18px;width: 110px;height: 180px;}
+.buyticket-content .basic .rightbasic .hotlook .fNword{float: left;margin-left: 10px;}
+.buyticket-content .basic .rightbasic .hotlook .fNword h2{margin-top: 10px;font-weight: normal;}
+.buyticket-content .basic .rightbasic .hotlook .fNword h2 span{font-size: 30px;color: #fe9a02;}
+.buyticket-content .basic .rightbasic .hotlook .fNword h5{color: #616161;font-weight: normal;margin-top: 10px;}
+.buyticket-content .basic .rightbasic .hotlook .fNword h5 span{color: #999999;}
+.buyticket-content .basic .rightbasic .hotlook .fNword p{color: #363636;margin-top: 10px;}
+.buyticket-content .basic .rightbasic .hotlook .fNword button{width: 120px;height: 30px;border: none;outline: none;background-color:#fe9a02;color: white;margin-top: 50px; }
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------选座位的网页的CSS-------------------------------------------------------------------------------------------------------*/
+.chooseseat-content{width: 100%;background-color: #eeeeee;overflow: hidden;}
+.chooseseat-content .buypiao{width: 960px;background-color: white;margin: auto;margin-top: 25px;position: relative;}
+.chooseseat-content .buypiao .orderticks{width: 100%;height: 75px;border-bottom: 1px solid silver;}
+.chooseseat-content .buypiao .orderticks h1{float: left;margin-left: 40px;margin-top: 27px;}
+.chooseseat-content .buypiao .orderticks .step{width: 756px;height: 25px;background: url("../img/54.gif");float: left;margin-top: 25px;margin-left: 30px;position: relative;}
+.chooseseat-content .buypiao .orderticks .step .p1{position: absolute;left: 40px;top: 5px;color: white;}
+.chooseseat-content .buypiao .orderticks .step .p2{position: absolute;left: 280px;top: 5px;color: #959595;}
+.chooseseat-content .buypiao .orderticks .step .p3{position: absolute;left: 520px;top: 5px;color: #959595;}
+
+.chooseseat-content .buypiao .allcontent{}
+/*左边*/
+.chooseseat-content .buypiao .allcontent .conleft{width: 722px;height: 900px;float: left;}
+.chooseseat-content .buypiao .allcontent .conleft .reminder{width: 100%;height: 30px;background-color: #fffdd4;font-size: 14px;line-height: 30px;text-align: center;}
+.chooseseat-content .buypiao .allcontent .conleft .reminder span{color: red;}
+.chooseseat-content .buypiao .allcontent .conleft .seat{font-size: 0;margin: 20px auto auto 80px; }
+.chooseseat-content .buypiao .allcontent .conleft .seat button{border: none;outline: none;width: 65px;height: 22px;background-color: white;font-size: 13px;margin-left: 2px;line-height: 22px;}
+.chooseseat-content .buypiao .allcontent .conleft .seat .seat1{background-image: url("../img/55.png");width: 22px;height: 22px;background-position: 0 0;}
+.chooseseat-content .buypiao .allcontent .conleft .seat .seat2{background-image: url("../img/55.png");width: 22px;height: 22px;background-position: 0 -22px;}
+.chooseseat-content .buypiao .allcontent .conleft .seat .seat3{background-image: url("../img/55.png");width: 22px;height: 22px;background-position: 0 -44px;}
+.chooseseat-content .buypiao .allcontent .conleft .seat .seat4{background-image: url("../img/55.png");width: 22px;height: 22px;background-position: 0 -66px;}
+.chooseseat-content .buypiao .allcontent .conleft .seat .seat5{background-image: url("../img/55.png");width: 22px;height: 22px;background-position: 0 -88px;}
+.chooseseat-content .buypiao .allcontent .conleft .seat .seat6{background-image: url("../img/55.png");width: 22px;height: 22px;background-position: 0 -110px;}
+/*银幕方向*/
+.chooseseat-content .buypiao .allcontent .conleft .Imaxscreen{color: red;width: 584px;height: 35px;background: url("../img/56.gif");margin: auto;margin-top: 10px;text-align: center;font-size: 20px;line-height: 35px;}
+.chooseseat-content .buypiao .allcontent .conleft .seats table{margin-left: 18%;margin-top: 10%;}
+.chooseseat-content .buypiao .allcontent .conleft .fisth{letter-spacing: 5px;color: #363636;text-align: center;margin-top: 20px;}
+
+/*-----------------------------------座位排序---------------------------------*/
+.chooseseat-content .buypiao .allcontent .conleft .seatInfom{width: 90%;height: 500px;border: 1px solid transparent;margin: auto;margin-top: 50px;box-shadow: 2px 2px 40px #999999 inset;}
+
+/*注意事项*/
+.chooseseat-content .buypiao .allcontent .conleft ul{list-style: none;font-size: 14px;margin-left: 40px;margin-top: 20px;}
+.chooseseat-content .buypiao .allcontent .conleft ul li{margin-top: 10px;}
+
+
+
+/*右边*/
+.chooseseat-content .buypiao .allcontent .conright{width: 230px;height: 900px;float: right;position: relative;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo{width: 212px;height: 500px;border: 1px solid silver;position: absolute;top: 70px;right: -10px;background-color: white;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo h6{font-weight: normal;margin-top: 10px;margin-left: 10px;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo h6 span{color: silver;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo button{border: none;outline: none;background-color: transparent;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo .bu1{width: 185px;height: 30px;border: 1px dashed silver;margin:10px auto auto 10px;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo .p4{margin-left: 20px;color: silver;margin-top: 10px;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo .commall{margin-top: 20px;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo .bu2{width: 185px;height: 30px;border-top: 1px dashed silver;margin:10px auto auto 10px;text-align: right;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo .bu2 small{font-size: 20px;color: #fc7f1f;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo input{width: 185px;height: 30px;margin: 10px auto auto 10px;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo .p5{margin-left: 20px;color: silver;margin-top: 10px;}
+.chooseseat-content .buypiao .allcontent .conright .buyInfo .bu3{width: 185px;height: 30px;border: 1px solid silver;margin:10px auto auto 10px;background-color: red;}
+
+
+.chooseseat-content .buypiao .allcontent .conright .redtu{position: absolute;right: -10px;top: 572px;}
+.chooseseat-content .buypiao .allcontent .conright .redtu1{position: absolute;right: -18px;top: 602px;}
+.chooseseat-content .buypiao .allcontent .conright .newInfo{position: absolute;top: 0;left: 40px;}
+.chooseseat-content .buypiao .allcontent .conright .newInfo small{font-weight: normal;color: #0371be;}
+
+.chooseseat-content .buypiao .lasttu{border-top: 1px solid #959595;clear: both;}
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------影片介绍的CSS------------------------------------------------------------------------------*/
+.info-movie{width: 665px;height: 100%;float: left;}
+.info-movie .story{}
+.info-movie .story h1{width: 200px;margin-left: 20px;color: #0371be;}
+.info-movie .story p{width: 90%;margin: auto;text-indent: 20px;line-height: 20px;}
+.info-movie .story ul{height: 100px;overflow: hidden;}
+.info-movie .story ul li{list-style: none;float: left;margin-right: 40px;}
+.info-movie .story ul li img{width: 140px;height: 95px;margin-left: 20px;}
+.info-movie .story .herald{width: 140px;height: 95px;clear: both;margin-left: 40px;}
+.info-movie .story h6{font-weight: normal;text-align: center;width: 100px;margin-left: 50px;}
+.info-movie .story h6 time{color: silver;}
+
+.info-movie .review{}
+.info-movie .review h1{color:#0371be;margin-left: 20px;}
+.info-movie .review .assess{width: 90%;height:30px;border-bottom: 1px solid #51a9f2;clear: both;margin-left: 30px;text-align: center;padding-bottom: 6px;}
+.info-movie .review .assess li{height:30px;float: left;list-style: none;color:white;background-color: #9acdff;font-size: 16px;margin-right: 5px;line-height: 30px;padding: 3px;}
+.info-movie .review .assess li:hover{background-color: #022d5a;}
+.info-movie .review .good_asess{width: 90%;}
+.info-movie .review .good_asess li{width: 100%;height: 130px;border-bottom: 1px dashed silver;list-style: none;margin-left: 30px;}
+.info-movie .review .good_asess li img{float: left;width: 60px;height: 60px;margin-top: 20px;}
+.info-movie .review .good_asess li .people{float: left;margin-left: 10px;margin-top: 20px;width: 85%;}
+.info-movie .review .good_asess li .people p{color: #0371be;}
+.info-movie .review .good_asess li .people p span{background-color: red;color: white;text-align: center;display: inline-block;width: 50px;}
+.info-movie .review .good_asess li .people h6{font-weight: normal;margin-top: 20px;}
+.info-movie .review .good_asess li .people .people_time{margin-top: 5px;color: black;}
+.info-movie .review .good_asess li .people .people_time time{color: #848484;}
+.info-movie .review .good_asess li .people .reply{width: 100%;margin-top: 10px;}
+.info-movie .review .good_asess li .people input{width: 70%;height: 20px;float: left;}
+.info-movie .review .good_asess li .people button{width: 10%;height: 20px;float: right;}
+
+.info-movie .review .user_talk{width: 90%;height: auto;margin-left: 40px;position: relative;}
+.info-movie .review .user_talk p{color: #fe6702;margin-top: 20px;}
+.info-movie .review .user_talk h6{font-weight: normal;color: #a2a2a2;margin-top: 10px;}
+.info-movie .review .user_talk textarea{width: 100%;height: 100px;color: #a2a2a2;margin-top: 20px;}
+.info-movie .review .user_talk  button{width: 100px;height: 40px;color: white;background-color: #8fcefa;border: none;outline: none;float: right;}
+.info-movie .review .user_talk img{position: absolute;bottom: 110px;right: 10px;}

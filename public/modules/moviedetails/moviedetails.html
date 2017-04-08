@@ -1,0 +1,108 @@
+
+
+
+<!--电影介绍-->
+<div class="info-movie">
+    <!--剧情简介-->
+    <div class="story">
+        <!--<h1>剧情简介</h1>-->
+        <!--<p>静祥和的艾泽拉斯大陆陷入战争即将爆发的边缘，它的文明遭到令人畏惧的种族的侵略：兽人战士逃离濒临灭亡的家园，意欲占领新的土地。黑暗之门开启，两个世界连接在了一起。一方阵营面临着毁灭，一方阵营面临着消亡。敌对的两位英雄不得不展开生死较量，他们各自的家人、人民和家园的命运悬于一线……</p>-->
+        <!--<h1>剧照</h1>-->
+        <!--<ul>-->
+            <!--<li><img src="../../img/61.jpg" alt=""/></li>-->
+            <!--<li><img src="../../img/62.jpg" alt=""/></li>-->
+            <!--<li><img src="../../img/63.jpg" alt=""/></li>-->
+            <!--<li><img src="../../img/64.jpg" alt=""/></li>-->
+        <!--</ul>-->
+         <!--<h1>预告片</h1>-->
+        <!--<img class="herald" src="../../img/65.jpg" alt=""/>-->
+        <!--<h6>《魔兽》终极预告 <br/> <time>片长01:00</time></h6>-->
+    </div>
+
+
+    <!--点评-->
+    <div class="review">
+        <h1>点评</h1>
+        <!--点评导航-->
+        <ol class="assess">
+            <li>推荐影评</li>
+            <li>全部评价（1535）</li>
+            <li>好评（1528）</li>
+            <li>中评（1）</li>
+            <li>差评（6）</li>
+        </ol>
+        <!--评论用户的评论-->
+        <ol class="good_asess">
+            <li>
+                <img src="../../img/66.jpg" alt=""/>
+                <div class="people">
+                    <p>jinuozhou28:<span>好评</span></p>
+                    <h6>在哪里领取五毛啊，我必须给魔兽电影五星啊！</h6>
+                    <p class="people_time"><time>观影地点</time>未知 <time>2016年6月6日 来自：</time>网页版</p>
+                    <div class="reply"> <input type="text"/><button>回复</button></div>
+                </div>
+            </li>
+            <li>
+                <img src="../../img/66.jpg" alt=""/>
+                <div class="people">
+                    <p>jinuozhou28:<span>好评</span></p>
+                    <h6>在哪里领取五毛啊，我必须给魔兽电影五星啊！</h6>
+                    <p class="people_time"><time>观影地点</time>未知 <time>2016年6月6日 来自：</time>网页版</p>
+                    <div class="reply"> <input type="text"/><button>回复</button></div>
+                </div>
+            </li>
+            <li>
+                <img src="../../img/66.jpg" alt=""/>
+                <div class="people">
+                    <p>jinuozhou28:<span>好评</span></p>
+                    <h6>在哪里领取五毛啊，我必须给魔兽电影五星啊！</h6>
+                    <p class="people_time"><time>观影地点</time>未知 <time>2016年6月6日 来自：</time>网页版</p>
+                    <div class="reply"> <input type="text"/><button>回复</button></div>
+                </div>
+            </li>
+        </ol>
+
+        <!--用户评论-->
+        <div class="user_talk">
+            <p>♥看过了？和大家分享你的感受！</p>
+            <h6>我要点评：<input type="radio" name="takl"/>好评<input type="radio" name="takl"/>中评<input type="radio" name="takl"/>差评 </h6>
+            <h6>观影地点：<input type="text"/></h6>
+            <textarea name="" id="" cols="20" rows="10">温馨提示：你的评价会给影迷在购票上带来影响，请客观评价您观看的影片</textarea>
+            <button>提交</button>
+            <img src="../../img/67.gif" alt=""/>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script id="templaet_datatail"  type="text/x-handlebars-template">
+    {{#each films}}
+    <h1>剧情简介</h1>
+    <p>{{synopsis}}</p>
+    <h1>剧照</h1>
+    <ul>
+        <li><img src={{imagePath11}} alt=""/></li>
+        <li><img src={{imagePath12}} alt=""/></li>
+        <li><img src={{imagePath13}} alt=""/></li>
+        <li><img src={{imagePath14}} alt=""/></li>
+    </ul>
+    <h1>预告片</h1>
+    <img class="herald" src={{imagePath15}} alt=""/>
+    <h6>《魔兽》终极预告 <br/> <time>片长01:00</time></h6>
+    {{/each}}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+

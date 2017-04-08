@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/allwangpiaowang.css"/>
+    <title>网票网</title>
+</head>
+<body>
+
+
+<!--首页头部-->
+<header class="main-header">
+    <div class="xNav">
+        <p>目前已有300多个城市 2000多家影院开通了在线订购服务</p>
+        <nav>
+
+            <button id="mainlog">登陆</button>
+            <span id="loginname">
+                <i></i>
+                <span>注销</span>
+            </span>
+            <button id="mainreg">注册</button>
+
+            <button>我的订单</button>
+            <button>手机版</button>
+            <button>服务导航</button>
+        </nav>
+    </div>
+    <div class="cNav">
+        <div class="cNavauto">
+            <img class="logo" src="img/1.jpg" alt=""/>
+            <p class="local">北京站 <img src="img/2.jpeg" alt=""/></p>
+            <nav>
+                <button id="home_page" style="color: white;background-color: #2a81c3;">首页</button>
+                <button>电影</button>
+                <button>影院</button>
+                <button class="bUact">活动 <img src="img/3.png" alt=""/></button>
+                <button>电影卡</button>
+                <button class="buttO">快速购票</button>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="请输入你要搜索的关键字"/>
+                <button class="butt1"></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!--首页内容部分-->
+<div id="content"></div>
+
+
+<!--首页尾部-->
+<footer class="main-footer">
+    <div class="fOguide">
+        <img src="img/6.jpg" alt=""/>
+        <ul>
+            <li>购票指南</li>
+            <li>影讯查询</li>
+            <li>支付方式</li>
+            <li>接收验票码</li>
+            <li>如何验票</li>
+        </ul>
+
+        <img src="img/7.jpg" alt=""/>
+        <ul>
+            <li>会员服务</li>
+            <li>影讯查询</li>
+            <li>支付方式</li>
+            <li>接收验票码</li>
+            <li>如何验票</li>
+        </ul>
+
+        <img src="img/8.jpg" alt=""/>
+        <ul>
+            <li>团体客户专区</li>
+            <li>影讯查询</li>
+            <li>支付方式</li>
+            <li>接收验票码</li>
+            <li>如何验票</li>
+        </ul>
+
+        <img src="img/9.jpg" alt=""/>
+        <ul>
+            <li>帮助中心</li>
+            <li>影讯查询</li>
+            <li>支付方式</li>
+            <li>接收验票码</li>
+            <li>如何验票</li>
+        </ul>
+
+        <ul class="cUstu">
+            <li>客服电话</li>
+            <li>400-678-2005</li>
+            <li><time>9:00-22:00</time> <small>全年无休</small></li>
+        </ul>
+
+        <nav>
+            <a href="">关于我们</a>
+            <a href="">公司介绍</a>
+            <a href="">合作招商</a>
+            <a href="">广告服务</a>
+            <a href="">招贤纳士</a>
+            <a href="" style="border: none;">联系我们</a>
+        </nav>
+
+    </div>
+    <div class="fOlast">
+        <p>Copyright&copy;2003-2012 wangpiao.com All rights reseved.网票网 版权所有 &nbsp;北京市公安局朝阳分局备案编号：110105202&nbsp;京ICP证090693 京ICP备10039989号-4</p>
+        <ul>
+            <li><img src="img/10.jpg" alt=""/></li>
+            <li><img src="img/11.jpg" alt=""/></li>
+            <li><img src="img/12.jpg" alt=""/></li>
+        </ul>
+
+    </div>
+</footer>
+
+</body>
+<script type="text/javascript" src="js/sea.js"></script>
+<script type="text/javascript">
+    seajs.config({
+        base:".",
+        alias:{
+            "jquery":"js/jquery-1.12.4.seajs.min",
+            "handlebars":"js/handlebars.seajs.min",
+             "main":"modules/main/main.js",
+            "register":"modules/register/register.js",
+            "login":"modules/login/login.js",
+            "buyticket":"modules/buyticket/buyticket.js",
+            "chooseseat":"modules/chooseseat/chooseseat.js",
+            "moviedetails":"modules/moviedetails/moviedetails.js",
+            "query":"js/jquery.query",
+            "seats": "modules/chooseseat/seats.js",
+            "main0":"js/main0"
+        }
+    });
+    seajs.use("main0");
+</script>
+</html>
